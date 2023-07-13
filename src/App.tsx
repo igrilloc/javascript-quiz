@@ -31,7 +31,7 @@ function App () {
           </Typography>
         </Stack>
 
-        <strong style={{ display: 'block', fontSize: '14px', marginTop: '5px', marginBottom:'20px' }}>Desarrollado con TypeScript + Zustand - <a style={{ color: 'yellow' }} href=''>Ir al código</a></strong>
+        <strong style={{ display: 'block', fontSize: '14px', marginTop: '5px', marginBottom:'20px' }}>Desarrollado con TypeScript + Zustand - <a style={{ color: 'yellow' }} href='https://github.com/igrilloc/javascript-quiz'>Ir al código</a></strong>
         
         {questions.length === 0 && <Start />}
         {questions.length > 0 && unanswered > 0 && <Game />}
